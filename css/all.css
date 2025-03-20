@@ -1,0 +1,417 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft JhengHei", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    /* vertical-align: middle; */
+    display: block;
+}
+
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
+
+/* 【以上內容勿動!!!  有關基本樣式設定】 */
+/* 開版設定 */
+.wrap {
+    max-width: 1000px;
+    margin: 0 auto;
+    /* 【超過】 開版範圍 就不呈現 */
+    overflow: hidden;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+
+}
+
+.thing01-1 {
+    width: 100%;
+    left: 0.25%;
+    top: 6.5%;
+    scale: 1.023;
+    -webkit-mask: url("../images/thing_01.png") no-repeat center center;
+    mask: url("../images/thing_01.png") no-repeat center center;
+    -webkit-mask-size: contain;
+    mask-size: contain;
+}
+
+.thing01-2 {
+    width: 26.3%;
+    right: 1.75%;
+    top: 25.5%;
+}
+
+.thing01-3 {
+    width: 28.3%;
+    left: 1%;
+    top: 42%;
+    -webkit-mask: url("../images/thing_03.png") no-repeat center center;
+    mask: url("../images/thing_03.png") no-repeat center center;
+    -webkit-mask-size: contain;
+    mask-size: contain;
+}
+
+.thing01-4 {
+    width: 24%;
+    left: 50%;
+    top: 51%;
+    -webkit-mask: url("../images/thing_04.png") no-repeat center center;
+    mask: url("../images/thing_04.png") no-repeat center center;
+    -webkit-mask-size: contain;
+    mask-size: contain;
+}
+
+.thing01-5 {
+    width: 26.2%;
+    right: -4.25%;
+    top: 45%;
+    -webkit-mask: url("../images/thing_05.png") no-repeat center center;
+    mask: url("../images/thing_05.png") no-repeat center center;
+    -webkit-mask-size: contain;
+    mask-size: contain;
+}
+
+.thing02-1 {
+    width: 96.1%;
+    left: 2%;
+    top: 22%;
+}
+
+.thing02-2 {
+    width: 17.9%;
+    left: 12.5%;
+    top: 56%;
+}
+
+.thing02-3 {
+    width: 17.9%;
+    left: 31.5%;
+    top: 59.5%;
+}
+
+.thing02-4 {
+    width: 17.9%;
+    left: 50.75%;
+    top: 59.5%;
+}
+
+.thing02-5 {
+    width: 17.9%;
+    right: 12.25%;
+    top: 56%;
+}
+
+.thing05-1 {
+    width: 78.2%;
+    left: 11%;
+    top: 21.5%;
+    mix-blend-mode: multiply;
+}
+
+.thing05-1-show {
+    width: 66.8%;
+    left: 17.5%;
+    top: 21%;
+}
+
+.thing05-2 {
+    width: 63.8%;
+    left: 18%;
+    top: 31.1%;
+    mix-blend-mode: multiply;
+}
+
+.thing05-2-show {
+    width: 52.7%;
+    left: 24.5%;
+    top: 30.6%;
+}
+
+.thing05-3 {
+    width: 71.8%;
+    left: 14%;
+    top: 41.2%;
+    mix-blend-mode: multiply;
+}
+
+.thing05-3-show {
+    width: 59.4%;
+    left: 20.5%;
+    top: 40.6%;
+}
+
+.thing05-4 {
+    width: 87.6%;
+    left: 6.4%;
+    bottom: 42%;
+    mix-blend-mode: multiply;
+}
+
+.thing05-4-show {
+    width: 79.6%;
+    left: 10.4%;
+    bottom: 43.7%;
+}
+
+.thing05-5 {
+    width: 87.6%;
+    left: 6.4%;
+    bottom: 30.65%;
+    mix-blend-mode: multiply;
+}
+
+.thing05-5-show {
+    width: 79.6%;
+    left: 10.4%;
+    bottom: 32.4%;
+}
+
+.thing06-1 {
+    width: 43.7%;
+    left: 7%;
+    bottom: 1.6%;
+    cursor: pointer;
+}
+
+.thing06-2 {
+    width: 43.6%;
+    right: 4%;
+    bottom: 1.6%;
+    cursor: pointer;
+}
+
+.thing08-1 {
+    width: 43.7%;
+    left: 7%;
+    bottom: 3.6%;
+    cursor: pointer;
+}
+
+.thing08-2 {
+    width: 43.6%;
+    right: 4%;
+    bottom: 3.6%;
+    cursor: pointer;
+}
+
+.thing10-1 {
+    width: 43.7%;
+    left: 7%;
+    bottom: 3%;
+    cursor: pointer;
+}
+
+.thing10-2 {
+    width: 43.6%;
+    right: 4%;
+    bottom: 3%;
+    cursor: pointer;
+}
+
+.thing10-3 {
+    width: 52.5%;
+    left: 7.5%;
+    top: 62.3%;
+}
+
+.thing10-4 {
+    width: 78%;
+    height: 30%;
+    left: 43.5%;
+    top: 46.3%;
+    z-index: -1;
+}
+
+.thing12-1 {
+    width: 100%;
+    left: 0;
+    top: 44.5%;
+}
+
+.thing12-1 .swiper-slide:first-child {
+    transform: translateX(2.5%);
+}
+
+.thing12-1 .swiper-slide:not(:first-child) {
+    transform: translateY(20%);
+}
+
+.thing12-1 img {
+    margin: 0 auto;
+    object-fit: cover;
+}
+
+.thing14-1 {
+    width: 82.5%;
+    left: -0.5%;
+    top: 13.5%;
+    -webkit-mask: url("../images/thing_23.png") no-repeat center center;
+    mask: url("../images/thing_23.png") no-repeat center center;
+    -webkit-mask-size: contain;
+    mask-size: contain;
+}
+
+.thing15-1 {
+    width: 66.2%;
+    left: 15%;
+    top: 26.5%;
+}
+
+.thing15-2 {
+    width: 93.3%;
+    left: 4.5%;
+    top: 34.7%;
+}
+
+.thing15-3 {
+    width: 70.9%;
+    left: 14.3%;
+    top: 52.2%;
+}
+
+.thing15-4 {
+    width: 93.3%;
+    left: 4%;
+    top: 61.2%;
+}
+
+.thing15-5 {
+    width: 74.9%;
+    left: 14.7%;
+    bottom: 12.8%;
+}
+
+.thing16-1 {
+    width: 81.8%;
+    left: 10%;
+    top: 30.5%;
+}
+
+.thing18-1 {
+    width: 23.5%;
+    left: 2.5%;
+    top: 28%;
+    animation: moveDown 2s infinite ease-in-out;
+}
+
+.thing18-2 {
+    width: 85.3%;
+    left: 7.3%;
+    top: 50%;
+    -webkit-mask: url("../images/thing_27.png") no-repeat center center;
+    mask: url("../images/thing_27.png") no-repeat center center;
+    -webkit-mask-size: contain;
+    mask-size: contain;
+}
+
+.thing18-3 {
+    width: 27.4%;
+    left: 12.3%;
+    top: 37.4%;
+}
+
+.thing19-1 {
+    width: 21.8%;
+    right: 4%;
+    top: 26%;
+    animation: moveDown 2s infinite ease-in-out;
+}
+
+.thing20-1 {
+    width: 23.5%;
+    left: 2.5%;
+    top: 28%;
+    animation: moveDown 2s infinite ease-in-out;
+}
+
+.thing20-2 {
+    width: 85.3%;
+    left: 7.3%;
+    top: 50%;
+    -webkit-mask: url("../images/thing_32.png") no-repeat center center;
+    mask: url("../images/thing_32.png") no-repeat center center;
+    -webkit-mask-size: contain;
+    mask-size: contain;
+}
+
+.thing20-3 {
+    width: 27.4%;
+    left: 13.9%;
+    top: 36.3%;
+}
+
+.thing21-1 {
+    width: 21.9%;
+    right: 1.5%;
+    top: 27.5%;
+    animation: moveDown 2s infinite ease-in-out;
+}
+
+.thing22-1 {
+    width: 23.5%;
+    left: 1%;
+    top: 25.5%;
+    animation: moveDown 2s infinite ease-in-out;
+}
+
+.thing22-2 {
+    width: 85.3%;
+    left: 7.3%;
+    top: 49.5%;
+    -webkit-mask: url("../images/thing_37.png") no-repeat center center;
+    mask: url("../images/thing_37.png") no-repeat center center;
+    -webkit-mask-size: contain;
+    mask-size: contain;
+}
+
+.thing22-3 {
+    width: 23.2%;
+    left: 15.3%;
+    top: 35.6%;
+}
+
+.thing23-1 {
+    width: 21.9%;
+    right: 1%;
+    top: 25%;
+    animation: moveDown 2s infinite ease-in-out;
+}
+
+/* 定位 */
+.arrowUP {
+    position: absolute;
+    width: 29.2%;
+    right: 5%;
+    top: 61.5%;
+    
+    animation: arrow 2s infinite ease-in-out;
+    transform-origin: center 80% ;
+}

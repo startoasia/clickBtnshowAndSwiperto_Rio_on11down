@@ -1,0 +1,43 @@
+.offerBtn {
+    transition: all .3s;
+}
+
+.offerBtn:hover {
+    opacity: 0.8;
+}
+
+.offer01 {
+    width: 92%;
+    left: 4%;
+    bottom: 7.5%;
+}
+
+.offer02 {
+    width: 92%;
+    left: 4%;
+    bottom: 21%;
+}
+
+.offer03 {
+    width: 92%;
+    left: 4%;
+    bottom: 7%;
+}
+
+.offer04 {
+    width: 92%;
+    left: 4%;
+    bottom: 18%;
+}
+
+.offer05 {
+    width: 92%;
+    left: 4%;
+    bottom: 7.5%;
+}
+
+.offer06 {
+    width: 92%;
+    left: 4%;
+    bottom: 21%;
+}
